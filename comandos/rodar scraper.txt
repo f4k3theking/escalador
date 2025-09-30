@@ -1,0 +1,5 @@
+cd C:\xampp\htdocs\escalador backup\fb-scraper-main
+fb-scraper-env\Scripts\activate
+python main.py
+
+powershell: Invoke-RestMethod -Uri "http://localhost:5000/scrape" -Method POST -ContentType "application/json" -Body '{"url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&q=lei%20da%20atra%C3%A7%C3%A3o&search_type=keyword_unordered"}'

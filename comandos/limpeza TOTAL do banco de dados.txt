@@ -1,0 +1,2 @@
+cd "C:\xampp\htdocs\escalador backup\backend"
+node scripts\clean-old-offers.js

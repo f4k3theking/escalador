@@ -1,0 +1,15 @@
+cd "C:\xampp\htdocs\escalador backup\backend"
+node scripts\import-scraper-data.js "../fb-scraper-main/dirty_CLEAN.json"
+
+Em seguida, Acesse: http://localhost/phpmyadmin
+Selecione: banco escalador_ads
+Vá em: "Exportar"
+Clique: "Export"
+Salve como: escalador_ads_clean.sql
+
+IMPORTAÇÃO NA HOSTINGER:
+No phpMyAdmin da Hostinger:
+Clique: "Acesse o phpMyAdmin"
+Vá em: "Importar"
+Escolha: arquivo escalador_ads_clean.sql
+Clique: "Executar"
