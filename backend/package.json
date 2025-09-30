@@ -1,0 +1,44 @@
+{
+  "name": "escalador-backend",
+  "version": "1.0.0",
+  "description": "Backend para o Escalador - SaaS de Análise e Escalonamento de Anúncios",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build completed'",
+    "netlify:dev": "netlify dev",
+    "netlify:build": "npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.5",
+    "puppeteer": "^21.6.1",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.1",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.2.0",
+    "archiver": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "escalador",
+    "ads",
+    "facebook",
+    "marketing",
+    "saas"
+  ],
+  "author": "Escalador",
+  "license": "MIT"
+}
