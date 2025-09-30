@@ -1,0 +1,20 @@
+{
+  "short_name": "Escalador",
+  "name": "Escalador - SaaS de Análise e Escalonamento de Anúncios",
+  "icons": [
+    {
+      "src": "images/icone.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icone.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6366f1",
+  "background_color": "#0a0a0a"
+}
